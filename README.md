@@ -48,15 +48,15 @@ Total number of columns: 32
 
 # Data Cleaning
 
-# (1) Handling null values
+# Handling null values
 Null values in columns company, agent and children were replaced by 0.
 Null values in column country were replaced by 'Unknown'.
 
-# (2) Converting columns to appropriate data types
+# Converting columns to appropriate data types
 Changed data type of children, company and agent to int type.
 Changed data type of reservation status date to date type.
 
-# (4) Creating new columns
+# Creating new columns
 Created a new column for total stay by adding stays on weekend nights + stays on weeknights.
 Created a new column for total people by adding adults + children + babies.
 
