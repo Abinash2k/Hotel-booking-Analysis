@@ -101,7 +101,11 @@ Box Plot
 -	There is 37% of Cancellation and 63% of confirm booking. 
 
 Challenges
+
 (1) There was a lot of duplicate data.
+
 (2) Data was present in the wrong datatype format.
+
 (3) Choosing appropriate visualization techniques to use was difficult.
+
 (4) A lot of null values were there in the dataset.
