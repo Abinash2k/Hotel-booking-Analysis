@@ -1,11 +1,12 @@
-Hotel Bookings Exploratory Data Analysis
+# Hotel Bookings Exploratory Data Analysis
 
-Objective
+# Objective
 I have been provided with a hotel bookings dataset.
 
 Out main objective is performing EDA on the given dataset and draw useful conclusions about general trends in hotel bookings and how factors governing hotel bookings interact with each other.
 
-Dataset
+# Dataset
+
 I have been given a hotel booking dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
 
 - Hotel: - The name of the hotel where the booking was made.
@@ -45,22 +46,23 @@ Total number of rows in data: 119390
 Total number of columns: 32
 
 
-Data Cleaning and Feature Engineering
+# Data Cleaning
 
-(1) Handling null values
+# (1) Handling null values
 Null values in columns company, agent and children were replaced by 0.
 Null values in column country were replaced by 'Unknown'.
 
-(2) Converting columns to appropriate data types
+# (2) Converting columns to appropriate data types
 Changed data type of children, company and agent to int type.
 Changed data type of reservation status date to date type.
 
-(4) Creating new columns
+# (4) Creating new columns
 Created a new column for total stay by adding stays on weekend nights + stays on weeknights.
 Created a new column for total people by adding adults + children + babies.
 
 
-Exploratory Data Analysis
+# Exploratory Data Analysis
+
 Performed EDA and tried answering the following questions:
 
 Q1. What is the cancellation by month?
@@ -86,7 +88,22 @@ Line Plot.
 Heatmap.
 Box Plot
 
-Conclusions:
+# Conclusions
+-Around 60% bookings are for City hotel and 40% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall 
+ adr of City hotel is slightly higher than Resort hotel.
+
+-Both hotels have significantly higher booking cancellation rates
+
+-Most of the guests came from unknown/other countries, with most of guests coming from Britain.
+
+-Guests use different channels for making bookings out of which most preferred way is TA/TO.
+
+-Maximum of bookings via TA/TO .
+
+-Not getting same room as reserved, longer lead time and waiting time do not affect cancellation of bookings.
+
+-July- August are the most busier and profitable months for both of hotels.
+and many more.
 
 Challenges
 (1) There was a lot of duplicate data.
