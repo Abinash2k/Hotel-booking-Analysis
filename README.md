@@ -89,21 +89,16 @@ Heatmap.
 Box Plot
 
 # Conclusions
--Around 60% bookings are for City hotel and 40% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall 
- adr of City hotel is slightly higher than Resort hotel.
-
--Both hotels have significantly higher booking cancellation rates
-
--Most of the guests came from unknown/other countries, with most of guests coming from Britain.
-
--Guests use different channels for making bookings out of which most preferred way is TA/TO.
-
--Maximum of bookings via TA/TO .
-
--Not getting same room as reserved, longer lead time and waiting time do not affect cancellation of bookings.
-
--July- August are the most busier and profitable months for both of hotels.
-and many more.
+- Around 60% bookings are for City hotel and 40% bookings are for Resort hotel, therefore City Hotel is more busy than Resort hotel. Also the overall adr of City hotel is slightly higher than Resort hotel.
+-	It was observed that certain months have higher cancellation rates compared to others. Specifically, vacation time has higher cancellation
+-	Most people prefer BB-type meals rather than FB, SC or HB. Also, it is seen that very few guests opted for the Full Board meal type, as indicated by the lowest bar.
+-	ADR represents the average price paid by guests for a night's stay, a peak in the frequency of ADR values at the lower end of the spectrum, indicating that a significant number of bookings are made at lower rates and a long right tail, indicating that there are a few instances of exceptionally high ADR values, which are less frequent but can significantly impact revenue.
+-	The scatterplot shows the relationship between the day of the month when guests arrive and the number of days, they spend on the waiting list before their stay.
+-	It is seen that the distribution of lead times for both cancelled (1) and not cancelled (0) bookings.
+-	Maximum guest booked hotel through the distribution of guests across different market segments. Each bar represents a specific market technique for booking a hotel, and the height of the bar indicates the count of guests belonging to that booking method.
+-	It was observed in the bar plot that most people prefer staying in the City Hotel compared to the Resort Hotel.
+-	Top 3 origin of guests are from Britain, Portugal and Spain.
+-	There is 37% of Cancellation and 63% of confirm booking. 
 
 Challenges
 (1) There was a lot of duplicate data.
